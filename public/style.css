@@ -1,0 +1,21 @@
+/* style.css - simple clean layout */
+body { font-family: Arial, sans-serif; background:#f6f7fb; margin:0; padding:20px; color:#222; }
+.container { max-width:1200px; margin:0 auto; background:white; padding:20px; border-radius:8px; box-shadow:0 6px 18px rgba(0,0,0,0.06); }
+h1 { margin-top:0; }
+.row { margin-bottom:8px; }
+input, select, button { padding:8px 10px; border-radius:6px; border:1px solid #ddd; }
+button { cursor:pointer; background:#2b7cff; color:#fff; border:none; }
+button.secondary { background:#666; }
+.form, .controls, .stats, .table { margin-bottom:18px; }
+table { width:100%; border-collapse:collapse; }
+th, td { text-align:left; padding:8px; border-bottom:1px solid #eee; }
+.actions button { margin-right:6px; }
+
+
+/*body { font-family: Arial, sans-serif; padding: 20px; }
+.container { max-width: 900px; margin: 0 auto; }
+.row { margin: 8px 0; }
+table { width: 100%; border-collapse: collapse; margin-top: 12px; }
+table, th, td { border: 1px solid #ccc; }
+th, td { padding: 6px; text-align: left; }
+button { margin-right: 6px; }

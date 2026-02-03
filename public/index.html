@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>EMS - Web</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Employee Management System</h1>
+
+    <section class="form">
+      <h2>Add / Update Employee</h2>
+      <form id="empForm">
+        <input type="hidden" id="empId" />
+        <div class="row"><input id="name" placeholder="Name" required /></div>
+        <div class="row"><input id="department" placeholder="Department" /></div>
+        <div class="row"><input id="designation" placeholder="Designation" /></div>
+        <div class="row"><input id="salary" placeholder="Salary" type="number" step="1" /></div>
+        <div class="row"><input id="joining_date" placeholder="Joining Date (YYYY-MM-DD)" /></div>
+        <div class="row"><input id="email" placeholder="Email" type="email" /></div>
+        <div class="row">
+          <button type="submit" id="saveBtn">Save</button>
+          <button type="button" id="clearBtn">Clear</button>
+        </div>
+      </form>
+    </section>
+
+    <section class="controls">
+      <input id="search" placeholder="Search by name, email or id" />
+      <select id="filterDept"><option value="">All Departments</option>
+      <option value="">Sales Dept</option></select>
+      <button id="searchBtn">Search</button>
+      <button id="refreshBtn">Refresh</button>
+      <button id="exportBtn">Export CSV</button>
+    </section>
+
+    <section class="stats">
+      <h3>Statistics</h3>
+      <div id="statsContent">Loading...</div>
+    </section>
+
+    <section class="table">
+      <h2>Employees</h2>
+      <table id="empTable">
+        <thead>
+          <tr><th>ID</th><th>Name</th><th>Dept</th><th>Desig</th><th>Salary</th><th>Joining</th><th>Email</th><th>Actions</th></tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "rahul",
+    "department": "Development",
+    "designation": "manager",
+    "salary": 70000,
+    "joining_date": "2025-01-01",
+    "email": "rahulsinhami5a@gmail.com"
+  },
+  {
+    "id": 2,
+    "name": "priya",
+    "department": "sales",
+    "designation": "hr",
+    "salary": 40000,
+    "joining_date": "2025-01-01",
+    "email": "priya1509@gmail.com"
+  }
+]
